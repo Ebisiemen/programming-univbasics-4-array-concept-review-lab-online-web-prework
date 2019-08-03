@@ -3,9 +3,6 @@ def find_element_index(array, value_to_find)
     array.index(value_to_find)
   else 
     nil  
-  
-  while value_to_find == array.include?(value_to_find) do
-  puts array.index(value_to_find)
   end 
 end
 
