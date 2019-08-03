@@ -9,13 +9,13 @@ end
 
 
 def find_min_value(array)
-  min_value = 0 
+  lowest_value = 0 
   index = 0 
-  while min_value < array.length do  
-    if array[index] < min_value
-      min_value = array[index]
+  while lowest_value < array.length do  
+    if array[index] < lowest_value
+      lowest_value = array[index]
     end
     index += 1 
   end   
-  min_value
+  lowest_value
 end
