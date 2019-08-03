@@ -9,5 +9,10 @@ end
 
 
 def find_min_value(array)
-  # Add your solution here
+  min_value = 0 
+  index = 0 
+  while min_value < array.length do  
+    if array[index] > min_value
+      min_value = array[index]
+    end   
 end
