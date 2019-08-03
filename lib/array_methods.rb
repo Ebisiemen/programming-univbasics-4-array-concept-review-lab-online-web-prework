@@ -9,10 +9,10 @@ end
 def find_max_value(array)
   max_number = 0 
   index = 0
-  while max_number < array
-  
-  array.length 
-  array 
+  while index < array.length do 
+  array[index] > max_number
+  max_number = 
+  end 
 end
 
 def find_min_value(array)
